@@ -123,17 +123,19 @@ p {
     margin-left: 75px;
     box-shadow: -7px 4px 43px -5px rgba(0, 0, 0, 0.75);
     padding: 70px 0;
-    border-left: 5px solid cyan;
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+
+.exp_left h3 {
+    color: chocolate;
 }
 
 .exp_left h1,
 h3,
 p {
-    margin-left: 40px;
-}
-
-.exp_left h3 {
-    color: chocolate;
+    margin-left: 25px;
 }
 
 .exp_right {
@@ -141,17 +143,19 @@ p {
     margin: 0px 30px;
     box-shadow: -7px 4px 43px -5px rgba(0, 0, 0, 0.75);
     padding: 70px 0;
-    border-left: 5px solid cyan;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(6, 233, 36), blue);
+    border-image-slice: 1;
+}
+
+.exp_right h3 {
+    color: chocolate;
 }
 
 .exp_right h1,
 h3,
 p {
-    margin-left: 40px;
-}
-
-.exp_right h3 {
-    color: chocolate;
+    margin-left: 25px;
 }
 
 footer p {
