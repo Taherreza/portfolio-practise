@@ -1,0 +1,162 @@
+/* common css part*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    color: #747a76;
+    font-size: 50px;
+}
+
+h2 {
+    color: #747a76;
+}
+
+h3 {
+    color: #747a76;
+}
+
+p {
+    color: #747a76;
+}
+
+
+/* main css part */
+
+
+/* top_portfolio css */
+
+#top_portfolio {
+    display: flex;
+}
+
+#top_portfolio {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.top_left {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.top_head span {
+    color: chocolate;
+}
+
+.top_left a {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right, red, rgb(75, 75, 68));
+    padding: 8px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.top_right {
+    width: 50%;
+}
+
+.top_right img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* middle css part */
+
+#middle_portfolio {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#middle_portfolio {
+    display: flex;
+    margin-top: 150px;
+}
+
+.middle_left {
+    width: 50%;
+}
+
+.middle_left img {}
+
+.middle_right {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.middle_right {
+    margin-right: 50px;
+}
+
+.middle_right a {
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(to right, red, rgb(75, 75, 68));
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+
+/* experience section */
+
+#experience {
+    margin-top: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.flex_container {
+    display: flex;
+}
+
+.exp_left {
+    width: 50%;
+    margin: 0px 30px;
+    margin-left: 75px;
+    box-shadow: -7px 4px 43px -5px rgba(0, 0, 0, 0.75);
+    padding: 70px 0;
+    border-left: 5px solid cyan;
+}
+
+.exp_left h1,
+h3,
+p {
+    margin-left: 40px;
+}
+
+.exp_left h3 {
+    color: chocolate;
+}
+
+.exp_right {
+    width: 50%;
+    margin: 0px 30px;
+    box-shadow: -7px 4px 43px -5px rgba(0, 0, 0, 0.75);
+    padding: 70px 0;
+    border-left: 5px solid cyan;
+}
+
+.exp_right h1,
+h3,
+p {
+    margin-left: 40px;
+}
+
+.exp_right h3 {
+    color: chocolate;
+}
+
+footer p {
+    color: #747a76;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 150px;
+}
